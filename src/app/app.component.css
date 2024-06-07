@@ -1,0 +1,33 @@
+.sidenav {
+  height: 100vh; /* Full height */
+  width: 200px; /* Width of the side nav */
+  position: fixed; /* Fixed position */
+  top: 0; /* Align to top */
+  left: 0; /* Align to left */
+  background-color: #f8f9fa; /* Light background color */
+  padding-top: 20px; /* Padding on top */
+  display: flex; /* Flexbox for vertical alignment */
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 10px; /* Space between buttons */
+}
+
+.sidenav button {
+  padding: 10px 20px; /* Button padding */
+  font-size: 16px; /* Button text size */
+  color: #fff; /* Button text color */
+  background-color: #007bff; /* Button background color */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.sidenav button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Ensure the main content area is pushed to the right */
+main {
+  margin-left: 220px; /* Space for the side nav */
+  padding: 20px; /* Padding inside the main content */
+}

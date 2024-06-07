@@ -1,0 +1,14 @@
+<p>component-a works!</p>
+<div class="card">
+  <div class="card-body">
+    <p>component-a works!</p>
+    <div *ngIf="data">
+      <h2>Data from Fake API</h2>
+      <div class="scrollable-list">
+        <ul>
+          <li *ngFor="let item of data">{{ item.title }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
